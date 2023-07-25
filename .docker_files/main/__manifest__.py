@@ -11,8 +11,7 @@
     "category": "Other",
     "summary": "Install all addons required for testing.",
     "depends": [
-        "theme_alan",
-        "atharva_theme_base",
+
     ],
     "installable": True,
 }

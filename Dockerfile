@@ -11,8 +11,5 @@ RUN mkdir -p "${THIRD_PARTY_ADDONS}" && chown -R odoo "${THIRD_PARTY_ADDONS}"
 
 USER odoo
 
-COPY atharva_theme_base /mnt/extra-addons/atharva_theme_base
-COPY theme_alan /mnt/extra-addons/theme_alan
-
 COPY .docker_files/main /mnt/extra-addons/main
 COPY .docker_files/odoo.conf /etc/odoo
