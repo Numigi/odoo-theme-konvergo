@@ -11,46 +11,36 @@
                                 <a href="#" class="btn btn-secondary mb-2">Consulter la FAQ</a>
                             </div>
                         </div>
-                        <div class="col-lg-6 s_faq_collapse">
-                            <div id="myCollapse" class="accordion" role="tablist">
-                                <div class="card" data-name="Item">
-                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="true" class="card-header o_default_snippet_text link--plain-bold">
-                                        <b>C’est quoi Konvergo Bot?</b>
-                                    </a>
-                                    <div class="collapse show s_product-faq__content card-body" role="tabpanel">
-                                        <div>
-                                            <p class="o_default_snippet_text">Konvergo Bot permet aux entreprises et aux professionnels du marketing de créer des chatbots personnalisés en blocs de construction, sans aucune compétence de code nécessaire.</p>
-                                        </div>
+                        <div id="myCollapse" class="col-lg-6 accordion" role="tablist">
+                            <div class="card" data-name="Item">
+                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="true" class="card-header link--plain-bold">C'est quoi Konvergo Bot?</a>
+                                <div class="collapse show" role="tabpanel">
+                                    <div class="card-body">
+                                        <p class="card-text">Konvergo Bot permet aux entreprises et aux professionnels du marketing de créer des chatbots personnalisés en blocs de construction, sans aucune compétence de code nécessaire.</p>
                                     </div>
                                 </div>
-                                <div class="card" data-name="Item">
-                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header o_default_snippet_text link--plain-bold">
-                                        <b>Comment mes données sont sécurisées?</b>
-                                    </a>
-                                    <div class="collapse s_product-faq__content card-body" role="tabpanel">
-                                        <div>
-                                            <p class="o_default_snippet_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        </div>
+                            </div>
+                            <div class="card" data-name="Item">
+                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header link--plain-bold">Comment mes données sont sécurisées?</a>
+                                <div class="collapse" role="tabpanel">
+                                    <div class="card-body">
+                                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
-                                <div class="card" data-name="Item">
-                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header o_default_snippet_text link--plain-bold">
-                                        <b>Quels sont les avantages de Konvergo Bot?</b>
-                                    </a>
-                                    <div class="collapse s_product-faq__content card-body" role="tabpanel">
-                                        <div>
-                                            <p class="o_default_snippet_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        </div>
+                            </div>
+                            <div class="card" data-name="Item">
+                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header link--plain-bold">Quels sont les avantages de Konvergo Bot?</a>
+                                <div class="collapse" role="tabpanel">
+                                    <div class="card-body">
+                                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
-                                <div class="card" data-name="Item">
-                                    <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header o_default_snippet_text link--plain-bold">
-                                        <b>Quels produits offre Konvergo Bot?</b>
-                                    </a>
-                                    <div class="collapse s_product-faq__content card-body" role="tabpanel">
-                                        <div>
-                                            <p class="o_default_snippet_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        </div>
+                            </div>
+                            <div class="card" data-name="Item">
+                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header link--plain-bold">Quels produits offre Konvergo Bot?</a>
+                                <div class="collapse" role="tabpanel">
+                                    <div class="card-body">
+                                        <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
                             </div>
