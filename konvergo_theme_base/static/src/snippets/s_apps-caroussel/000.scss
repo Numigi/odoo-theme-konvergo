@@ -4,7 +4,7 @@
 
     &__logo {
         border-radius: $btn-border-radius;
-        border: 1px solid map-get($konvergo-colors, "black-300");
+        border: 1px solid map-get($konvergo-colors, "black-100");
         background: #FFF;
         display: inline-flex;
         padding: 20px;
@@ -24,7 +24,7 @@
 .combine-data {
     background: map-get($konvergo-colors, 'blue-100');
     border-radius: $btn-border-radius;
-    border: 1px solid map-get($konvergo-colors, "black-300");
+    border: 1px solid map-get($konvergo-colors, "black-100");
     display: flex;
     flex-wrap: wrap;
     height: 300px;
