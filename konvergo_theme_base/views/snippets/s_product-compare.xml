@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template id="s_product-compare" name="Comparaison produit">
+      <section class="s_product-compare s_features_grid pt80 pb80 o_colored_level" data-snippet="s_features_grid" data-name="Features Grid">
+        <div class="container">
+          <div class="row pb40 col-lg-6">
+            <h2>Sélectionnez votre outil actuel et voyez en quoi <font class="text-o-color-1">Konvergo Bot est mieux</font>.
+            </h2>
+          </div>
+          <div class="row">
+            <div class="s_col_no_bgcolor pb24 col-lg-4">
+              <div class="row">
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s_col_no_bgcolor pb24 col-lg-4">
+              <div class="row">
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="s_col_no_bgcolor pb24 col-lg-4">
+              <div class="row">
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+                <div class="col-lg-12 pt16 pb16 o_colored_level s_product-compare__item" data-name="Box">
+                  <div class="s_product-compare__content">
+                    <div>
+                      <p class="large">
+                        <b>Konvergo Bot vs Intercom</b>
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <a href="#" class="s_product-compare__link">Comparer</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>

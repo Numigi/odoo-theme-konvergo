@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_hero-three-ctas" name="Hero avec trois CTA">
+            <section class="s_hero-three-ctas flex-row align-items-center o_full_screen_height">
+                <div class="s_hero-three-ctas__cta s_hero-three-ctas--large">
+                    <div class="s_hero-three-ctas__wrapper">
+                        <p class="very-large-text">Konvergo pour la distribution</p>
+                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#" class="btn btn-primary">Découvrir les solutions</a>
+                    </div>
+                </div>
+                <div class="s_hero-three-ctas__group">
+                    <div class="s_hero-three-ctas__cta s_hero-three-ctas__group--small">
+                        <div class="s_hero-three-ctas__wrapper">
+                            <p class="very-large-text">Konvergo pour les manufacturiers</p>
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <a href="#" class="btn btn-primary btn-konvergo-yellow">Découvrir les solutions</a>
+                        </div>
+                    </div>
+                    <div class="s_hero-three-ctas__cta s_hero-three-ctas__group--small">
+                        <div class="s_hero-three-ctas__wrapper">
+                            <p class="very-large-text">Konvergo pour les comptables</p>
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                            <a href="#" class="btn btn-primary btn-konvergo-blue">Découvrir les solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

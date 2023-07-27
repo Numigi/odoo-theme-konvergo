@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_security" name="Sécurité et confidentialité">
+            <section class="pt80 pb80">
+                <div class="container s_security">
+                    <div class="row align-items-center justify-content-center s_security__row">
+                        <div class="col-lg-6 justify-content-center align-items-center d-flex">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_security/safe-rafiki.svg" alt="Illustration sécurité"/>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="o_default_snippet_text">Sécurité maximale, confidentialité assurée</h2>
+                            <p class="o_default_snippet_text">Avec Konvergo Bot, la sécurité de vos données est notre priorité. En parfaite conformité avec la Loi (LPRPDE) et la Loi 25 du Canada, nous garantissons une protection optimale des informations de votre entreprise et de vos clients.</p>
+                            <p class="o_default_snippet_text">
+                            Vivez l'expérience Konvergo Bot, où confidentialité rime avec efficacité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_start-steps" name="Étapes">
+            <section class="s_start-steps pt80 pb80">
+                <div class="container">
+                    <div class="pb40">
+                        <h2>Démarrez rapidement en quelques minutes</h2>
+                    </div>
+                    <div class="row s_start-steps-list">
+                        <div class="col-lg-4 pt24 pb24">
+                            <div class="s_start-steps-list__icon mb-4">
+                                <span class="rounded-circle large">1</span>
+                            </div>
+                            <div>
+                                <p class="large">
+                                    <b>Connectez vos données</b>
+                                </p>
+                                <p>Pas besoin d'importer ni d'exporter vos données. Connectez-vous simplement à <a href="#">+20 sources de données</a> différentes, quel que soit le volume de vos données.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pt24 pb24">
+                            <div class="s_start-steps-list__icon mb-4">
+                                <span class="rounded-circle large">2</span>
+                            </div>
+                            <div>
+                                <p class="large">
+                                    <b>Créer votre tableau de bord</b>
+                                </p>
+                                <p>Explorez vos données grâce à notre éditeur visuel. Créez des tableaux de bord personnalisés pour visualiser vos KPI et comprendre les tendances.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pt24 pb24">
+                            <div class="s_start-steps-list__icon mb-4">
+                                <span class="rounded-circle large">3</span>
+                            </div>
+                            <div>
+                                <p class="large">
+                                    <b>Passez à l’action</b>
+                                </p>
+                                <p>Transformez vos données en insights puissants. Partagez-les avec votre équipe, prenez des décisions éclairées et orientez votre entreprise vers le succès.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>
