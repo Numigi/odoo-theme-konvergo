@@ -14,21 +14,21 @@
                     <div class="row s_key-functionalities__features">
                         <div class="col-lg-4">
                             <i class="fa fa-lock mb-2"/>
-                            <p class="large">
+                            <p class="lead">
                                 <b>Permissions</b>
                             </p>
                             <p>Gérez l'accès aux données, au contenu et aux fonctionnalités grâce aux permissions de groupe.</p>
                         </div>
                         <div class="col-lg-4">
                             <i class="fa fa-line-chart mb-2"/>
-                            <p class="large">
+                            <p class="lead">
                                 <b>Extrêmement évolutif</b>
                             </p>
                             <p>Konvergo BI s'adapte à vos besoins, du stade initial de votre entreprise jusqu'à sa maturité et au-delà.</p>
                         </div>
                         <div class="col-lg-4">
                             <i class="fa fa-bolt mb-2"/>
-                            <p class="large">
+                            <p class="lead">
                                 <b>Mise en cache</b>
                             </p>
                             <p>Nos outils de mise en cache évitent d'avoir à gérer planificateurs ou pipelines.</p>
