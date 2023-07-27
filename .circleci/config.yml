@@ -42,13 +42,9 @@ jobs:
             curl -L $NWS_BIN_LOCATION > ./nws
             chmod +x ./nws
       - run:
-          name: Set tag on flex-odoo
+          name: Set tag
           command: |
-            ./nws circleci create-tag -t flex-odoo
-      - run:
-          name: Set tag on fix-odoo
-          command: |
-            ./nws circleci create-tag -t fix-odoo
+            ./nws circleci create-tag -t odoo-base
 
 workflows:
   version: 2
