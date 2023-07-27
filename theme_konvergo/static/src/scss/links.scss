@@ -1,0 +1,17 @@
+.link {
+    &--small {
+        color: $link-small-color;
+
+        &:hover {
+            color: $link-small-hover-color;
+        }
+    }
+
+    &--plain-bold {
+        color: $link-plain-bold-color;
+
+        &:hover {
+            color: $link-plain-bold-hover-color;
+        }
+    }
+}
