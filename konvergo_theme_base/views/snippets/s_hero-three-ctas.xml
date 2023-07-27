@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <template id="s_hero-three-ctas" name="Hero avec trois CTA">
-            <section class="s_hero-three-ctas flex-row align-items-center o_full_screen_height">
+            <section class="s_hero-three-ctas flex-row align-items-center o_full_screen_height" data-snippet="s_hero-three-ctas" data-name="Hero avec trois CTA">
                 <div class="s_hero-three-ctas__cta s_hero-three-ctas--large">
                     <div class="s_hero-three-ctas__wrapper">
                         <p class="very-large-text">Konvergo pour la distribution</p>

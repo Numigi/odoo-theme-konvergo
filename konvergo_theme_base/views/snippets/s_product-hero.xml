@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <template id="s_product-hero" name="Hero page produit">
-            <section class="pt80 pb80">
+            <section class="pt80 pb80" data-snippet="s_product-hero" data-name="Hero page produit">
                 <div class="s_product-hero__container o_container_small d-flex justify-content-center justify-content-sm-start flex-column align-items-start align-items-sm-center">
                     <img class="s_product-hero__logo" src="/konvergo_theme_base/static/src/img/snippets/s_product-hero/konvergo-bot-logo.svg" alt="Logo Konvergo Bot" loading="lazy"/>
                     <h1 class="text-lg-center text-sm-start">Créez des chatbots personnalisés sans code</h1>

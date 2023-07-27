@@ -2,7 +2,7 @@
 <odoo>
   <data>
     <template id="s_product-compare" name="Comparaison produit">
-      <section class="s_product-compare s_features_grid pt80 pb80 o_colored_level" data-snippet="s_features_grid" data-name="Features Grid">
+      <section class="s_product-compare pt80 pb80 o_colored_level" data-snippet="s_product-compare" data-name="Comparaison produit">
         <div class="container">
           <div class="row pb40 col-lg-6">
             <h2>Sélectionnez votre outil actuel et voyez en quoi <font class="text-o-color-1">Konvergo Bot est mieux</font>.
