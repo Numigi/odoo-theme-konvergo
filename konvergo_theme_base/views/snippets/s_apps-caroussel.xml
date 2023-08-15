@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_apps-caroussel" name="Caroussel applications">
+            <section class="s_apps-caroussel pt80 pb80" data-snippet="s_apps-caroussel" data-name="Caroussel applications">
+                <div class="container">
+                    <div class="row data-source pb40">
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/open-ai.svg" alt="Open AI"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/google-drive.svg" alt="Google Drive"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/gmail.svg" alt="Gmail"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/airtable.svg" alt="Airtable"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/chatwoot.svg" alt="Chatwoot"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/google-sheets.svg" alt="Google Sheets"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/konvergo-erp.svg" alt="Konvergo ERP"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/make.svg" alt="Make"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/pabbly.svg" alt="Pabbly"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/shopify.svg" alt="Shopify"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/wordpress.svg" alt="WordPress"/>
+                        </div>
+                        <div class="data-source__logo">
+                            <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/zapier.svg" alt="Zapier"/>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center pt40">
+                        <div class="col-lg-6">
+                            <h2>Konvergo Bot s’intègre à vos outils du quotidien</h2>
+                            <p>Grâce à <a href="#">Automate</a>, Konvergo Bot est conçu pour s’intégrer en toute simplicité à vos outils de travail habituels, y compris notre solution complète de gestion d’entreprise, <a href="#">Konvergo ERP</a>.
+                            </p>
+                            <ul class="list-unstyled ml-2">
+                                <li>
+                                    <i class="fa fa-check mr-1"></i>Analysez vos performances</li>
+                                <li>
+                                    <i class="fa fa-check mr-1"></i>Collectez des leads automatiquement</li>
+                                <li>
+                                    <i class="fa fa-check mr-1"></i>Générez des rapports détaillés</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 combine-data">
+                            <div class="data-source__logo">
+                                <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/open-ai.svg" alt="Open AI"/>
+                            </div>
+                            <span>+</span>
+                            <div class="data-source__logo">
+                                <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/google-drive.svg" alt="Google Drive"/>
+                            </div>
+                            <span>+</span>
+                            <div class="data-source__logo">
+                                <img src="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/gmail.svg" alt="Gmail"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

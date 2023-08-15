@@ -1,0 +1,60 @@
+// .s_start-steps {
+
+//     &-list {
+//         .col-lg-4 {
+//             &:nth-of-type(1) .s_start-steps-list__icon span { 
+//                 background: map-get($konvergo-colors, "red-1000");
+//             }
+
+//             &:nth-of-type(2) .s_start-steps-list__icon span { 
+//                 background: map-get($konvergo-colors, "blue-1000");
+//             }
+
+//             &:nth-of-type(3) .s_start-steps-list__icon span { 
+//                 background: map-get($konvergo-colors, "yellow-1000");
+//             }
+//         }
+
+//         &__icon {
+//             span {
+//                 width: 5rem;
+//                 height: 5rem;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 color: map-get($konvergo-colors, "white-800");
+//             }
+//         }
+//     }
+// }
+
+
+.s_start-steps {
+
+    &-list {
+        .col-lg-4 {
+            &:nth-of-type(1) .s_start-steps-list__icon span { 
+                background: map-get($konvergo-colors, 'red-1000');
+            }
+
+            &:nth-of-type(2) .s_start-steps-list__icon span { 
+                background: map-get($konvergo-colors, 'blue-1000');
+            }
+
+            &:nth-of-type(3) .s_start-steps-list__icon span { 
+                background: map-get($konvergo-colors, 'yellow-1000');
+            }
+        }
+
+        &__icon {
+            span {
+                width: 5rem;
+                height: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: map-get($konvergo-colors, 'white-900');
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+//--------------------------------
+// Konvergo custom buttons
+//--------------------------------
+@each $color, $value in $konvergo-base-colors {
+  .btn-konvergo-#{$color} {
+    background: map-get($konvergo-colors, $color + '-1000');
+    border-color: map-get($konvergo-colors, $color + '-1000');
+
+    @if lightness($value) > 55% {
+      color: map-get($konvergo-colors, 'black-1000');
+    } @else {
+      color: map-get($konvergo-colors, 'white-900');
+    }
+
+    &:hover {
+      background: map-get($konvergo-colors, $color + '-1100');
+      border-color: map-get($konvergo-colors, $color + '-1100') !important;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($konvergo-colors, $color + '-500');
+    }
+
+    &:active {
+      background: map-get($konvergo-colors, $color + '-900') !important;
+      box-shadow: 0 0 0 0.2rem map-get($konvergo-colors, $color + '-500') !important;
+    }
+  }
+}

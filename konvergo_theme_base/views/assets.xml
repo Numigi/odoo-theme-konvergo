@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Load Konvergo snippets assets -->
+    <template id="theme_konvergo_assets" inherit_id="web.assets_frontend">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/scss/colors-variables.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/scss/text.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_apps-caroussel/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_hero-three-ctas/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_key-functionalities/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_product-compare/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_product-faq/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_product-hero/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_security/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_start-steps/000.scss"/>
+        </xpath>
+    </template>
+</odoo>

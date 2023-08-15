@@ -1,0 +1,31 @@
+.s_product-hero {
+    &__description {
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    &__logo {
+        margin-bottom: 70px;
+    }
+
+    &__mentions {
+        margin-top: 15px;
+
+        &:before {
+            content:'\f00c';
+            margin-right: 0.5rem;
+            font-family: 'FontAwesome';
+            display: inline-block;
+        }
+    }
+
+    &__image {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        
+        img {
+            width: 100%;
+        }
+    }
+}

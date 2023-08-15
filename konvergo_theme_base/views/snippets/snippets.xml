@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Konvergo Snippets entry -->
+    <template id="theme_konvergo_snippets" inherit_id="website.snippets">
+        <xpath expr="//*[@id='default_snippets']" position="before">
+            <t id="theme_konvergo_snippets">
+                <div id="theme_konvergo_snippets_category" class="o_panel">
+                    <div class="o_panel_header">Blocs Konvergo</div>
+                    <div class="o_panel_body">
+                        <t t-snippet="konvergo_theme_base.s_apps-caroussel" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_apps-caroussel/thumbnail.svg">
+                            <keywords>intégrations, applications, sources de données, données, workflow, automatisation, sync, synchronisation, data</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_hero-three-ctas" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_hero-three-ctas/thumbnail.svg">
+                            <keywords>hero accueil, gros cta, trois cta, appels à l'action, identification</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_key-functionalities" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_key-functionalities/thumbnail.svg">
+                            <keywords>fonctionnalités, points, spécifications, technique</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_product-compare" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_product-compare/thumbnail.svg">
+                            <keywords>konvergo vs, vs, comparatif</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_product-faq" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_product-faq/thumbnail.svg">
+                            <keywords>questions, foire aux questions, questions fréquentes</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_product-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_product-hero/thumbnail.svg">
+                            <keywords>hero produit, zone hero, page produit</keywords>
+                        </t>
+
+                        <t t-snippet="konvergo_theme_base.s_security" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_security/thumbnail.svg">
+                            <keywords>sécurité, conformité, loi, rgpd</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_start-steps" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_start-steps/thumbnail.svg">
+                            <keywords>étapes, démarrage, processus</keywords>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>
