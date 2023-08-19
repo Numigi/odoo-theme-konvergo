@@ -8,14 +8,12 @@ odoo.define('konvergo_theme_base.s_solutions-caroussel_options', function (requi
             var self = this;
             this._super.apply(this, arguments);
 
-            // Code supplémentaire pour initialiser votre option
-            this.updateSlideCount();  // Mise à jour initiale lors du chargement
+            this.updateSlideCount();  // Initial update
 
-            // Écoutez les événements des boutons d'ajout et de retrait
+            // Buttons events listeners
             this.$el.on('click', '[data-add-slide]', this.addSlide.bind(this));
             this.$el.on('click', '[data-remove-slide]', this.removeSlide.bind(this));
 
-            // Lier la fonction aux boutons de votre carrousel.
             this.$target.find('.carousel-control-prev, .carousel-control-next').on('click', this._onCarouselControlClick.bind(this));
         },
 
@@ -41,7 +39,7 @@ odoo.define('konvergo_theme_base.s_solutions-caroussel_options', function (requi
             const $newSlide = $hiddenSlide.clone().removeClass('carousel-item-hidden');
             this.$target.find('.carousel-inner').append($newSlide);
             this._resequenceSlides();
-            this.updateSlideCount();  // Mettre à jour le compteur après l'ajout
+            this.updateSlideCount();  // Update Counter
         },
 
         removeSlide: function (previewMode, value, $opt) {
@@ -52,7 +50,7 @@ odoo.define('konvergo_theme_base.s_solutions-caroussel_options', function (requi
                 const $lastSlide = $slides.last();
                 $lastSlide.remove();
                 this._resequenceSlides();
-                this.updateSlideCount();  // Mettre à jour le compteur après la suppression
+                this.updateSlideCount();
             } else {
                 alert("Vous ne pouvez pas supprimer la dernière slide !");
             }
@@ -101,6 +99,4 @@ odoo.define('konvergo_theme_base.s_solutions-caroussel_options', function (requi
             }
         },
     });
-
-    console.log('Hello World');
 });
