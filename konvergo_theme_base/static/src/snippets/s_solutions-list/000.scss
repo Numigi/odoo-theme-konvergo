@@ -1,0 +1,99 @@
+.solution-card {
+    border-radius: $btn-border-radius;
+    border: 1px solid map-get($konvergo-colors, "gray");
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    width: 30.5%;
+    position: relative;
+
+    * {
+        z-index: 2;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &__link, &__link i {
+        color: map-get($konvergo-colors, "red-1000");
+    }
+
+    &__icon {
+        background: map-get($konvergo-colors, "red-100");
+        border-radius: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.2rem;
+        height: auto;
+        max-width: 3.9rem;
+        max-height: 3.9rem;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 2rem;
+
+        p:not(.lead) {
+            color: map-get($konvergo-colors, "black-600");
+        }
+        
+        .lead b {
+            // transition: all 0.3s ease-in-out;
+            color: map-get($konvergo-colors, "black-1000") !important;
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background-color: map-get($konvergo-colors, "red-1000");
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.3s ease-in-out;
+        z-index: 1;
+    }
+
+    &:hover {
+        border-color: map-get($konvergo-colors, "red-1000");
+        transition: all 0.3s ease-in-out;
+
+        p, .lead b {
+            color: map-get($konvergo-colors, "white-900") !important;
+        }
+
+        .solution-card__link, .solution-card__link i {
+            color: map-get($konvergo-colors, "white-900");
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        &::before {
+            width: 500px;
+            height: 500px;
+        }
+
+        .solution-card__icon {
+            background: map-get($konvergo-colors, "white-900");
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .solution-card {
+        width: 45%;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .solution-card {
+        width: 100%;
+    }
+}

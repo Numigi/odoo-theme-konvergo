@@ -8,7 +8,8 @@ $konvergo-base-colors: (
 
 // Colors that should not be iterated in the loop
 $konvergo-additional-colors: (
-    'white-900': #FAFCFE
+    'white-900': #FAFCFE,
+    'gray': #D4D6D9
 );
 
 // Merge additional colors with base colors

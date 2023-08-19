@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_solutions-caroussel" name="Caroussel des solutions">
+            <section class="pt80 pb80 s_solutions-caroussel" data-snippet="s_solutions-caroussel" data-name="Caroussel des solutions">
+                <div class="container">
+                    <div class="row pb40 col-lg-7">
+                        <h2>Totalement intégré avec les autres solutions Konvergo ERP</h2>
+                    </div>
+                    <div id="carouselSolutions" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-item-slide">
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-achats">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_achats.svg" alt="Icône de la solution Achats"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Achats</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Prenez le contrôle de vos approvisionnements pour maximiser l'efficacité.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-developpement-des-affaires">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_developpement-des-affaires.svg" alt="Icône de la solution Développement des affaires"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Développement des affaires</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Propulsez la croissance de votre entreprise à des vitesses inédites.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-inventaire">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_inventaire.svg" alt="Icône de la solution Inventaire"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Inventaire</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Optimisez la gestion de votre inventaire pour améliorer l'expérience client et réduire les coûts.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item-slide">
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-ressources-humaines">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_ressources-humaines.svg" alt="Icône de la solution Ressources humaines"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Ressources humaines</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Attirez et retenez les meilleurs talents grâce à une gestion des ressources humaines optimisée.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-comptabilite">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_comptabilite.svg" alt="Icône de la solution Comptabilité"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Comptabilité</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Gardez un œil précis sur vos finances pour une prise de décision éclairée.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-fabrication">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_fabrication.svg" alt="Icône de la solution Fabrication"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Fabrication</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Améliorez la réactivité et l'efficacité de votre production d’usine.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item-slide">
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-projets">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_projets.svg" alt="Icône de la solution Projets"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Projets</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Gagnez en agilité et en efficacité dans la gestion de vos projets.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-block">
+                                        <div class="solution-card">
+                                            <a href="/konvergo-erp-locations">
+                                                <div>
+                                                    <div class="solution-card__icon mb-3">
+                                                        <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_locations.svg" alt="Icône de la solution Locations"/>
+                                                    </div>
+                                                    <p class="lead">
+                                                        <b>Locations</b>
+                                                    </p>
+                                                    <p class="solution-card__description">Maximisez l'utilisation de vos équipements. Gérez votre parc locatif intégralement en temps réel.</p>
+                                                </div>
+                                                <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-control">
+                            <a class="carousel-control-prev" href="#carouselSolutions" role="button" data-slide="prev">
+                            </a>
+                            <a class="carousel-control-next" href="#carouselSolutions" role="button" data-slide="next">
+                            </a>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselSolutions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselSolutions" data-slide-to="1"></li>
+                            <li data-target="#carouselSolutions" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Template carousel slide -->
+                <div class="carousel-item carousel-item-hidden">
+                    <div class="carousel-item-slide">
+                        <div class="carousel-block">
+                            <div class="solution-card">
+                                <a href="#">
+                                    <div>
+                                        <div class="solution-card__icon mb-3">
+                                            <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_ressources-humaines.svg" alt="Icône de la solution Ressources humaines"/>
+                                        </div>
+                                        <p class="lead">
+                                            <b>Nom de la solution</b>
+                                        </p>
+                                        <p class="solution-card__description">Donnez ici une courte description à votre solution. Elle doit être efficace et donner envie de cliquer.</p>
+                                    </div>
+                                    <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-block">
+                            <div class="solution-card">
+                                <a href="#">
+                                    <div>
+                                        <div class="solution-card__icon mb-3">
+                                            <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_ressources-humaines.svg" alt="Icône de la solution Ressources humaines"/>
+                                        </div>
+                                        <p class="lead">
+                                            <b>Nom de la solution</b>
+                                        </p>
+                                        <p class="solution-card__description">Donnez ici une courte description à votre solution. Elle doit être efficace et donner envie de cliquer.</p>
+                                    </div>
+                                    <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-block">
+                            <div class="solution-card">
+                                <a href="#">
+                                    <div>
+                                        <div class="solution-card__icon mb-3">
+                                            <img src="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/i_ressources-humaines.svg" alt="Icône de la solution Ressources humaines"/>
+                                        </div>
+                                        <p class="lead">
+                                            <b>Nom de la solution</b>
+                                        </p>
+                                        <p class="solution-card__description">Donnez ici une courte description à votre solution. Elle doit être efficace et donner envie de cliquer.</p>
+                                    </div>
+                                    <span class="solution-card__link">Découvrir<i class="fa fa-chevron-right ml-2"/>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="s_solutions_caroussel_options" inherit_id="web_editor.snippet_options">
+            <xpath expr="." position="inside">
+                <div data-js="SlideOption" data-selector=".s_solutions-caroussel">
+                    <we-input string="Vitesse (ms)" data-set-interval="" data-name="interval_opt">
+                        <we-number data-set-interval="true"/>
+                    </we-input>
+                    <we-title>Nombre de slides : <span class="slide-count"></span>
+                    </we-title>
+                    <we-button data-add-slide="true" title="Ajouter une slide">Ajouter une slide</we-button>
+                    <we-button data-remove-slide="true" title="Retirer une slide">Retirer une slide</we-button>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>
