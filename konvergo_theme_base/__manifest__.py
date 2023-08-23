@@ -29,6 +29,8 @@
         'views/snippets/s_chatbot-cta.xml',
         'views/snippets/s_solutions-list.xml',
         'views/snippets/s_solutions-caroussel.xml',
+        'views/snippets/s_product-range-hero.xml',
+        'views/snippets/s_text-rollup.xml',
     ],
     'installable': True,
     'auto_install': False,

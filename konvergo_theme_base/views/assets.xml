@@ -17,9 +17,13 @@
             <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_chatbot-cta/000.scss"/>
             <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_solutions-list/000.scss"/>
             <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_solutions-caroussel/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_product-range-hero/000.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/konvergo_theme_base/static/src/snippets/s_text-rollup/000.scss"/>
 
             <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_chatbot-cta/options.js"/>
             <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_solutions-caroussel/options.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_product-range-hero/options.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_text-rollup/000.js"/>
         </xpath>
     </template>
 </odoo>

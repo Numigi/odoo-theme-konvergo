@@ -44,6 +44,12 @@
                         <t t-snippet="konvergo_theme_base.s_solutions-caroussel" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_solutions-caroussel/thumbnail.svg">
                             <keywords>solutions, konvergo erp, caroussel des solutions</keywords>
                         </t>
+                        <t t-snippet="konvergo_theme_base.s_product-range-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_product-range-hero/thumbnail.svg">
+                            <keywords>produit, gamme, hero</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_text-rollup" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_text-rollup/thumbnail.svg">
+                            <keywords>texte, animation, défilement</keywords>
+                        </t>
                     </div>
                 </div>
             </t>

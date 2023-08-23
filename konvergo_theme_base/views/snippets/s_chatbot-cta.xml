@@ -7,8 +7,8 @@
                     <div class="row s_chatbot-cta__row">
                         <div class="col-lg-6">
                             <h2>Engagez vos utilisateurs et collectez 3X plus de leads.</h2>
-                            <small class="s_chatbot-cta__mentions text-lg-center text-sm-start">Aucune carte de crédit requise pour l'essai.</small>
-                            <small class="s_chatbot-cta__mentions text-lg-center text-sm-start">Démarrage gratuit</small>
+                            <small class="cta-mentions text-lg-center text-sm-start">Aucune carte de crédit requise pour l'essai.</small>
+                            <small class="cta-mentions text-lg-center text-sm-start">Démarrage gratuit</small>
                         </div>
                         <div class="d-flex justify-content-center s_chatbot-cta__chatbot">
                             <!-- Coller le code d'intégration de Konvergo BOT ici. -->

@@ -8,7 +8,7 @@
                     <h1 class="text-lg-center text-sm-start">Créez des chatbots personnalisés sans code</h1>
                     <p class="o_default_snippet_text text-lg-center text-sm-start s_product-hero__description">Konvergo Bot permet aux entreprises et aux professionnels du marketing de créer des chatbots en blocs de construction, sans aucune compétence de code nécessaire.</p>
                     <a href="#" class="btn btn-primary text-lg-center text-sm-start">Créer mon chatbot</a>
-                    <small class="s_product-hero__mentions text-lg-center text-sm-start">Aucune carte de crédit requise pour l'essai.</small>
+                    <small class="cta-mentions text-lg-center text-sm-start">Aucune carte de crédit requise pour l'essai.</small>
                 </div>
                 <div class="container s_product-hero__image">
                     <img class="shadow" src="/konvergo_theme_base/static/src/img/snippets/s_product-hero/interface-konvergo-bot.png" alt="Interface du produit Konvergo Bot" loading="lazy"/>

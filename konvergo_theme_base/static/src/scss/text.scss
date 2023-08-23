@@ -4,3 +4,14 @@
     color: map-get($konvergo-colors, "black-1000");
     letter-spacing: -0.125rem;
 }
+
+.cta-mentions {
+        margin-top: 15px;
+
+        &:before {
+            content:'\f00c';
+            margin-right: 0.5rem;
+            font-family: 'FontAwesome';
+            display: inline-block;
+        }
+}

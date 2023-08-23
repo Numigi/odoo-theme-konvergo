@@ -20,7 +20,7 @@
                 padding: unset;
             }
 
-            &__mentions {
+            .cta-mentions {
                 color: map-get($konvergo-colors, 'red-1000');
             }
         }
@@ -50,7 +50,7 @@
                 padding: unset;
             }
 
-            &__mentions {
+            .cta-mentions {
                 color: map-get($konvergo-colors, 'red-1000');
             }
         }
@@ -80,17 +80,6 @@
         typebot-standard {
             border-radius: $btn-border-radius;
             height: unset !important;
-        }
-    }
-
-    &__mentions {
-        margin-top: 15px;
-
-        &:before {
-            content:'\f00c';
-            margin-right: 0.5rem;
-            font-family: 'FontAwesome';
-            display: inline-block;
         }
     }
 }
