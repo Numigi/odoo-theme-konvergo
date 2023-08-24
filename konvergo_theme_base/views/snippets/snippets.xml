@@ -50,6 +50,9 @@
                         <t t-snippet="konvergo_theme_base.s_text-rollup" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_text-rollup/thumbnail.svg">
                             <keywords>texte, animation, défilement</keywords>
                         </t>
+                        <t t-snippet="konvergo_theme_base.s_industry-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_industry-hero/thumbnail.svg">
+                            <keywords>industrie, hero</keywords>
+                        </t>
                     </div>
                 </div>
             </t>

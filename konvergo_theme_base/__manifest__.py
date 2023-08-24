@@ -31,6 +31,7 @@
         'views/snippets/s_solutions-caroussel.xml',
         'views/snippets/s_product-range-hero.xml',
         'views/snippets/s_text-rollup.xml',
+        'views/snippets/s_industry-hero.xml',
     ],
     'installable': True,
     'auto_install': False,
