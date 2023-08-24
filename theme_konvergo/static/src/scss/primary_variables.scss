@@ -81,39 +81,54 @@ $o-theme-btn-font-weight:                   500;
 // Colors
 //------------------------------------------------------------------------------
 
-// Base colors to generate shades
-$konvergo-base-colors: (
-    'red': #EC0B43,
-    'blue': #1A62C6,
-    'yellow': #F3BE22,
-    'black': #242930
-);
-
-// Colors that should not be iterated in the loop
-$konvergo-additional-colors: (
-    'white-900': #FAFCFE
-);
-
-// Merge additional colors with base colors
-$konvergo-colors: $konvergo-additional-colors;
-
-@each $color, $base in $konvergo-base-colors {
-  // Add base color to the colors map
-  $konvergo-colors: map-merge($konvergo-colors, ($color + '-1000': $base));
-
-  @for $i from 1 through 9 {
-    // Calculate lighten and darkening percentage for each step
-    // $opacity: 1 - ($i * 0.1);
-    $percentage-ligthen: $i * 5%; // Adjust as needed
-    $percentage-darker: $i * 5%; // Adjust as needed
-
-    // Generate lighter and darker shades for each base color and add them to the colors map
-    $konvergo-colors: map-merge($konvergo-colors, (
-      $color + "-#{1000 - $i*100}": lighten($base, $percentage-ligthen),
-      $color + "-#{1000 + $i*100}": darken($base, $percentage-darker)
-    ));
+@function adjust-opacity($color, $amount, $background: #FAFCFE) {
+    $r: red($color);
+    $g: green($color);
+    $b: blue($color);
+    
+    $r-bg: red($background);
+    $g-bg: green($background);
+    $b-bg: blue($background);
+    
+    $r: round($r + ($r-bg - $r) * $amount);
+    $g: round($g + ($g-bg - $g) * $amount);
+    $b: round($b + ($b-bg - $b) * $amount);
+  
+    @return rgb($r, $g, $b);
   }
-}
+  
+  // Base colors to generate shades
+  $konvergo-base-colors: (
+      'red': #EC0B43,
+      'blue': #1A62C6,
+      'yellow': #F3BE22,
+      'black': #242930
+  );
+  
+  // Colors that should not be iterated in the loop
+  $konvergo-additional-colors: (
+      'white-900': #FAFCFE,
+      'gray': #D4D6D9
+  );
+  
+  // Merge additional colors with base colors
+  $konvergo-colors: $konvergo-additional-colors;
+  
+  @each $color, $base in $konvergo-base-colors {
+      // Add base color to the colors map
+      $konvergo-colors: map-merge($konvergo-colors, ($color + '-1000': $base));
+  
+      @for $i from 1 through 9 {
+          $opacity: $i * 0.1;
+          $adjusted-color: adjust-opacity($base, $opacity);
+          $darkened-color: darken($base, $i * 5%);
+  
+          $konvergo-colors: map-merge($konvergo-colors, (
+              $color + "-#{1000 - $i*100}": $adjusted-color,
+              $color + "-#{1000 + $i*100}": $darkened-color
+          ));
+      }
+  }  
 
 $o-color-palettes: (
     ( // Palette 1
