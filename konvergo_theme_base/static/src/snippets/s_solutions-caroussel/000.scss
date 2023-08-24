@@ -11,12 +11,12 @@
         height: 2px;
         border: none;
         background: map-get($konvergo-colors, 'red-100');
-        // transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
     .active {
         background: map-get($konvergo-colors, 'red-1000');
-        // transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 }
 
@@ -54,7 +54,7 @@
     padding: 1.5rem;
     width: 1rem;
     height: 1rem;
-    // transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
         background: map-get($konvergo-colors, 'red-1000');
