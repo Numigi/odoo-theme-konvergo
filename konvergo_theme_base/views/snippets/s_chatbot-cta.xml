@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_chatbot-cta" name="CTA Chatbot">
+            <section class="pt152 pb152 s_chatbot-cta s_chatbot-cta--default" data-snippet="s_chatbot-cta" data-name="CTA Chatbot" data-texts='["Texte 1", "Texte 2", "Texte 3"]' data-speed="3000">
+                <div class="container o_colored_level o_cc o_cc4">
+                    <div class="row s_chatbot-cta__row">
+                        <div class="col-lg-6">
+                            <h2>Engagez vos utilisateurs et collectez 3X plus de leads.</h2>
+                            <small class="cta-mentions text-lg-center text-sm-start">Aucune carte de crédit requise pour l'essai.</small>
+                            <small class="cta-mentions text-lg-center text-sm-start">Démarrage gratuit</small>
+                        </div>
+                        <div class="d-flex justify-content-center s_chatbot-cta__chatbot">
+                            <!-- Coller le code d'intégration de Konvergo BOT ici. -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="s_chatbot-cta_options" inherit_id="web_editor.snippet_options" name="s_chatbot-cta Options">
+            <xpath expr="." position="inside">
+                <div data-js="ChatbotOption" data-selector=".s_chatbot-cta">
+                    <we-input string="Code Konvergo Bot" title="Coller le code d'intégration standard de Konvergo Bot ici. Le Bot s'affichera une fois la page sauvegardé." data-set-value="" data-name="Code Konvergo Bot" />
+                    <we-select string="Style" data-name="set_style">
+                        <we-button data-set-value="s_chatbot-cta--default" data-select-class="s_chatbot-cta--default">Par défaut</we-button>
+                        <we-button data-set-value="s_chatbot-cta--light" data-select-class="s_chatbot-cta--light">Style 1</we-button>
+                        <we-button data-set-value="s_chatbot-cta--lightest" data-select-class="s_chatbot-cta--lightest">Style 2</we-button>
+                    </we-select>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

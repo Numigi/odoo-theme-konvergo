@@ -32,6 +32,27 @@
                         <t t-snippet="konvergo_theme_base.s_start-steps" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_start-steps/thumbnail.svg">
                             <keywords>étapes, démarrage, processus</keywords>
                         </t>
+                        <t t-snippet="konvergo_theme_base.s_solution-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_solution-hero/thumbnail.svg">
+                            <keywords>solution, application, produit</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_chatbot-cta" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_chatbot-cta/thumbnail.svg">
+                            <keywords>chatbot, cta, appel à l'action, konvergo bot, essai gratuit</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_solutions-list" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_solutions-list/thumbnail.svg">
+                            <keywords>solutions, konvergo erp, liste des solutions</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_solutions-caroussel" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_solutions-caroussel/thumbnail.svg">
+                            <keywords>solutions, konvergo erp, caroussel des solutions</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_product-range-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_product-range-hero/thumbnail.svg">
+                            <keywords>produit, gamme, hero</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_text-rollup" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_text-rollup/thumbnail.svg">
+                            <keywords>texte, animation, défilement</keywords>
+                        </t>
+                        <t t-snippet="konvergo_theme_base.s_industry-hero" t-thumbnail="/konvergo_theme_base/static/src/img/snippets/s_industry-hero/thumbnail.svg">
+                            <keywords>industrie, hero</keywords>
+                        </t>
                     </div>
                 </div>
             </t>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_industry-hero" name="Hero page industrie">
+            <section class="pb80 s_industry-hero" data-snippet="s_industry-hero" data-name="Hero page industrie">
+                <div class="row align-items-center">
+                    <div class="container s_industry-hero__text d-flex align-items-center">
+                        <div class="col-lg-6">
+                            <h1>Distribution</h1>
+                            <p>Surpassez les défis de votre Industrie avec une digitalisation gagnante, pour vous et vos clients !</p>
+                            <a href="#" class="btn btn-secondary mt-4">Essayer Konvergo ERP</a>
+                        </div>
+                    </div>
+
+                    <div class="s_industry-hero__mask-container">
+                        <img loading="eager" class="s_industry-hero__mask-image" src="/konvergo_theme_base/static/src/img/snippets/s_industry-hero/distribution-cartons-emballage.png" alt="Homme qui contrôle et emballe des cartons"/>
+                    </div>
+                </div>
+
+                <div class="container s_industry-hero__features-container">
+                    <div class="row s_industry-hero__features">
+                        <div class="col-lg-4 pb32 pt32">
+                            <p class="lead">
+                                <b>Approvisionnements agiles</b>
+                            </p>
+                            <p>Gagnez en visibilité et pilotez avec anticipation.</p>
+                        </div>
+                        <div class="col-lg-4 pb32 pt32">
+                            <p class="lead">
+                                <b>Suivi des fournisseurs</b>
+                            </p>
+                            <p>Gérez tous vos ratios et optimisez vos charges.</p>
+                        </div>
+                        <div class="col-lg-4 pb32 pt32">
+                            <p class="lead">
+                                <b>Expérience client</b>
+                            </p>
+                            <p>Gagnez en satisfaction client grâce à votre efficacité.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>
