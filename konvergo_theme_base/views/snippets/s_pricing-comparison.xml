@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="s_pricing-comparison" name="Comparateur de gammes">
+            <section class="s_pricing-comparison pt80 pb80 o_colored_level" data-snippet="s_pricing-comparison" data-name="Comparateur de gammes">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center pb72">
+                        <div class="col-lg-6">
+                            <h2 class="text-center">Comparateur de gammes Konvergo ERP</h2>
+                        </div>
+                    </div>
+
+                    <div class="price-block">
+
+                        <div id="PricingComparisonSelector">
+                            <label for="PricingComparisonSelector_Options">Sélectionnez une gamme</label>
+                            <select id="PricingComparisonSelector_Options">
+                                <option value="Vertical" data-price="380">Vertical</option>
+                                <option value="Tremplin" data-price="490">Tremplin</option>
+                                <option value="PretAPartir" data-price="1290">Prêt-à-partir</option>
+                                <option value="Propulse" data-price="1790">Propulsé</option>
+                                <option value="SurMesure" data-price="2490">Sur-Mesure</option>
+                            </select>
+                        </div>
+
+                        <div class="s_pricing-comparison__price d-flex flex-column">
+                            <small>À partir de</small>
+                            <span class="s_pricing-comparison__price-selected">
+                                <span>CAD$</span>
+                                <span id="selectedPrice">0</span>
+                            </span>
+                            <small>Prix mensuel, paiement sur 12 mois.</small>
+                        </div>
+                    </div>
+
+                    <!-- Liste des fonctionnalités -->
+                    <div class="row s_pricing-comparison__features">
+                        <div class="s_pricing-comparison__category s_pricing-comparison__category--badges">
+                            <p class="lead">
+                                <b>Processus couverts</b>
+                            </p>
+                            <ul class="s_pricing-comparison__badges" id="PricingComparisonFeatures">
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Développement des affaires</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Comptabilité</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin">Achats</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin">Ventes</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Vertical">Ressources humaines</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Vertical">Projets</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Fabrication</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Locations</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Inventaire</li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="s_pricing-comparison__category">
+                            <p class="lead">
+                                <b>Fonctionnalités clés</b>
+                            </p>
+                            <ul id="PricingComparisonFeatures">
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Nombre d'utilisateurs</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir">Rapports PDF personnalisables</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Accès base de données BI</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Site web institutionnel</li>
+                            </ul>
+                        </div>
+                        <div class="s_pricing-comparison__category">
+                            <p class="lead">
+                                <b>Environnements</b>
+                            </p>
+                            <ul id="PricingComparisonFeatures">
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Prod</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Lab</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir">Test</li>
+                            </ul>
+                        </div>
+                        <div class="s_pricing-comparison__category">
+                            <p class="lead">
+                                <b>Ajouts de modules</b>
+                            </p>
+                            <ul id="PricingComparisonFeatures">
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir">Socle standard</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse">Socle communautaire</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Modules personnalisés</li>
+                            </ul>
+                        </div>
+                        <div class="s_pricing-comparison__category">
+                            <p class="lead">
+                                <b>Sécurité</b>
+                            </p>
+                            <ul id="PricingComparisonFeatures">
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Sauvegardes à l'heure</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Export sécurisé des données 24/7</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Authentification avec Google</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>
