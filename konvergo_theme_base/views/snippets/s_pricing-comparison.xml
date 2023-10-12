@@ -17,8 +17,8 @@
                             <select id="PricingComparisonSelector_Options">
                                 <option value="Vertical" data-price="380">Vertical</option>
                                 <option value="Tremplin" data-price="490">Tremplin</option>
-                                <option value="PretAPartir" data-price="1290">Prêt-à-partir</option>
-                                <option value="Propulse" data-price="1790">Propulsé</option>
+                                <option value="Propulse" data-price="1290">Propulsé</option>
+                                <option value="Connecte" data-price="1790">Connecté</option>
                                 <option value="SurMesure" data-price="2490">Sur-Mesure</option>
                             </select>
                         </div>
@@ -40,13 +40,13 @@
                                 <b>Fonctionnalités clés</b>
                             </p>
                             <ul class="s_pricing-comparison__badges" id="PricingComparisonFeatures">
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Appli Cloud</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Rapports PDF personnalisables</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse">Multi-devises</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="Propulse SurMesure">Multi-Compagnies</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Utilisateurs illimités</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Logiciel évolutif</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Interface responsive</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Appli Cloud</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse">Rapports PDF personnalisables</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte">Multi-devises</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="Connecte SurMesure">Multi-Compagnies</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Utilisateurs illimités</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Logiciel évolutif</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Interface responsive</li>
                             </ul>
                         </div>
 
@@ -56,19 +56,19 @@
                                 <b>Processus</b>
                             </p>
                             <ul class="s_pricing-comparison__badges" id="PricingComparisonFeatures">
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Développement des affaires</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Comptabilité</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin">Achats</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin">Ventes</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Vertical">Ressources humaines</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Vertical">SIRH</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Vertical">Projets</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Fabrication</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Locations</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Inventaire</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir">Site web institutionnel</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Portail Clients</li>
-                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Propulse">E-commerce</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Développement des affaires</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Comptabilité</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin">Achats</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin">Ventes</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Vertical">Ressources humaines</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Vertical">SIRH</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Vertical">Projets</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse">Fabrication</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse">Locations</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse">Inventaire</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse">Site web institutionnel</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Portail Clients</li>
+                                <li class="s_pricing-comparison__badge" data-gamme="SurMesure Connecte">E-commerce</li>
                             </ul>
                         </div>
 
@@ -78,11 +78,8 @@
                                 <b>Options disponibles</b>
                             </p>
                             <ul id="PricingComparisonFeatures">
-                                <!-- <li class="s_pricing-comparison__feature" data-gamme="Vertical Tremplin PretAPartir Propulse SurMesure">Portail Clients</li> -->
-                                <li class="s_pricing-comparison__feature" data-gamme="PretAPartir Propulse SurMesure">Connexion Base BI</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="Propulse SurMesure">Connexion appplications tierces</li>
-                                <!-- <li class="s_pricing-comparison__feature" data-gamme="PretAPartir Propulse SurMesure">Site web institutionnel</li> -->
-                                <!-- <li class="s_pricing-comparison__feature" data-gamme="Propulse SurMesure">E-commerce</li> -->
+                                <li class="s_pricing-comparison__feature" data-gamme="Propulse Connecte SurMesure">Connexion Base BI</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="Connecte SurMesure">Connexion appplications tierces</li>
                                 <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Hébergement On Premise</li>
                                 <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Infrastructure et capacités serveur sur-mesure</li>
                             </ul>
@@ -92,9 +89,9 @@
                                 <b>Environnements</b>
                             </p>
                             <ul id="PricingComparisonFeatures">
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Prod</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Lab</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir">Test</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Prod</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Lab</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse">Test</li>
                             </ul>
                         </div>
                         <div class="s_pricing-comparison__category s_pricing-comparison__category--list">
@@ -102,8 +99,8 @@
                                 <b>Ajouts de modules</b>
                             </p>
                             <ul id="PricingComparisonFeatures">
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir">Socle standard</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse">Socle communautaire</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse">Socle standard</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte">Socle communautaire</li>
                                 <li class="s_pricing-comparison__feature" data-gamme="SurMesure">Modules personnalisés</li>
                             </ul>
                         </div>
@@ -112,9 +109,9 @@
                                 <b>Sécurité</b>
                             </p>
                             <ul id="PricingComparisonFeatures">
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Sauvegarde horaire</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Propulse PretAPartir Tremplin Vertical">Export sécurisé des données 24/7</li>
-                                <li class="s_pricing-comparison__feature" data-gamme="PretAPartir Propulse SurMesure">Authentification SSO</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Sauvegarde horaire</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="SurMesure Connecte Propulse Tremplin Vertical">Export sécurisé des données 24/7</li>
+                                <li class="s_pricing-comparison__feature" data-gamme="Propulse Connecte SurMesure">Authentification SSO</li>
                             </ul>
                         </div>
                     </div>
