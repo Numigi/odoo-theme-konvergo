@@ -17,8 +17,8 @@
     }
 
     .gradient-border {
-        --borderWidth: 6px;  // Vous pouvez changer cette valeur pour ajuster la largeur de la bordure
-        background: map-get($konvergo-colors, "black-1000"); // couleur de fond de votre choix
+        --borderWidth: 6px;
+        background: map-get($konvergo-colors, "black-1000");
         position: relative;
       
         &:after {
