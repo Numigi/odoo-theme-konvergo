@@ -2,7 +2,7 @@
 {
     "name": "Thème Konvergo Base",
     "category": "Base",
-    "version": "1.0",
+    "version": "1.1.0",
     'license': 'LGPL-3',
     'summary': 'Module de base pour le thème Konvergo',
     'author': 'Kapreon',
