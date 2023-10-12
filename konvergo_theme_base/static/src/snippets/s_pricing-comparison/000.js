@@ -3,7 +3,7 @@ $(document).ready(function () {
     function handleSelection() {
         const selectedGamme = $(this).val();
         const selectedPrice = $(this).find('option:selected').data('price');
-        console.log("Selected Gamme: ", selectedGamme);
+        // console.log("Selected Gamme: ", selectedGamme);
 
         $('#selectedPrice').text(selectedPrice);
 

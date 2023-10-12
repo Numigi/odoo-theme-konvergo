@@ -7,24 +7,66 @@
         margin-right: 0 !important;
     }
 
+    &__category--list {
+        max-width: 16rem;
+    }
+
     #PricingComparisonSelector {
         display: flex;
         flex-direction: column;
     }
 
+    .gradient-border {
+        --borderWidth: 6px;
+        background: map-get($konvergo-colors, "black-1000");
+        position: relative;
+      
+        &:after {
+          content: '';
+          position: absolute;
+          top: calc(-1 * var(--borderWidth));
+          left: calc(-1 * var(--borderWidth));
+          height: calc(100% + var(--borderWidth) * 2);
+          width: calc(100% + var(--borderWidth) * 2);
+          background: linear-gradient(60deg, #F3BE22, #EC0B43, #1A62C6);
+          border-radius: 0.625rem;
+          z-index: -1;
+          animation: animatedgradient 7s ease alternate infinite;
+          background-size: 300% 300%;
+        }
+    }
+
     .price-block {
-        position: inherit;
+        position: sticky;
+        top: 100px;
+        box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
-    background: map-get($konvergo-colors, "black-1000");
-    padding: 30px;
-    border: 1px solid #D4D6D9;
-    width: 60%;
-    z-index: 10;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+        background: map-get($konvergo-colors, "black-1000");
+        padding: 30px;
+        width: 60%;
+        z-index: 10;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__text {
+                z-index: 2;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: map-get($konvergo-colors, "black-1000");
+            opacity: 0.7;
+            border-radius: $btn-border-radius;
+        }
+    
 
     label {
         color: #FFF;
@@ -42,17 +84,6 @@
         }
 
     }
-
-    // label, select {
-    //     font-size: 2.5rem;
-    //     font-weight: 500;
-    //     line-height: 150%;
-    //     letter-spacing: -0.125rem;
-    // }
-
-    // label {
-    //     color: map-get($konvergo-colors, "black-1000");
-    // }
 
     select {
         color: map-get($konvergo-colors, "red-1000");
@@ -88,7 +119,6 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row !important;
-        max-width: 75%;
 
         .s_pricing-comparison__badge {
             background: #E9F8E8;
@@ -238,3 +268,16 @@
         }
     }
 }
+
+@keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
