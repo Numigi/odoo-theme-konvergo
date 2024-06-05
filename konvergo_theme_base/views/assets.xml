@@ -27,6 +27,22 @@
             <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_product-range-hero/options.js"/>
             <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_text-rollup/000.js"/>
             <script type="text/javascript" src="/konvergo_theme_base/static/src/snippets/s_pricing-comparison/000.js"/>
+
+            <link rel="stylesheet" href="/konvergo_theme_base/static/lib/css/magnific-popup.css" />
+            <link rel="stylesheet" href="/konvergo_theme_base/static/lib/css/slick.css"/>
+        </xpath>
+
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/owl.carousel.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/custom_slider.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/jquery.elevateZoom-3.0.8.min.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/jquery.magnific-popup.min.js"/>
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/lazyloads.js" />
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/lazysizes.min.js" />
+            <script type="text/javascript" src="/konvergo_theme_base/static/lib/js/slick.min.js" />
+
+            <script type="text/javascript" src="/konvergo_theme_base/static/src/js/header_menu_extend.js"/>
         </xpath>
     </template>
+
 </odoo>
