@@ -14,6 +14,40 @@
             <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/footer.scss"/>
             <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/links.scss"/>
             <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/404.scss"/>
+
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/lib/linearicons.css"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/lib/frontend/bootstrap-slider.min.css"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/variable.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/login.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/mixins.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/header.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/base.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/button.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/snippets.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/effect.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/mega-menu.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/quick-view.scss"/>
+	        <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/custom-option.scss"/>
+        </xpath>
+
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/theme_konvergo/static/src/lib/frontend/bootstrap-slider.min.js"/>
+            <script type="text/javascript" src="/theme_konvergo/static/src/js/login_popup.js"/>
+            <script type="text/javascript" src="/theme_konvergo/static/src/js/load_on_scroll.js"/>
+            <script type="text/javascript" src="/theme_konvergo/static/src/js/quick_alternative.js"/>
+            <script type="text/javascript" src="/theme_konvergo/static/src/js/megamenu_front.js"/>
+        </xpath>
+    </template>
+
+        <template id="theme_konvergo_primary_variables" inherit_id="website._assets_primary_variables" priority="1">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/theme.scss"/>
+        </xpath>
+    </template>
+
+        <template id="theme_konvergo_assets_frontend_helpers" inherit_id="portal._assets_frontend_helpers">
+        <xpath expr="//link" position="before">
+            <link rel="stylesheet" type="text/scss" href="/theme_konvergo/static/src/scss/bootstrap-override.scss"/>
         </xpath>
     </template>
 </odoo>

@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_megamenu_content,megamenu.content,model_megamenu_content,,1,1,1,1
+access_megamenu_links,megamenu.links,model_megamenu_links,,1,1,1,1
+access_megamenu_content_section,megamenu.content_section,model_megamenu_content_section,,1,1,1,1
+access_megamenu_column_headline,megamenu.column_headline,model_megamenu_column_headline,,1,1,1,1
+access_megamenu_slider,access_megamenu_slider,model_megamenu_slider,base.group_user,1,1,1,1
