@@ -1,30 +1,53 @@
-# -*- coding: utf-8 -*-
+
 {
-    "name": "Thème Konvergo",
-    "category": "Theme",
-    "version": "1.0",
-    'license': 'LGPL-3',
-    'summary': 'Thème pour le site web de Konvergo',
-    'author': 'Kapreon',
-    'support': 'contact@numigi.com',
-    "website": "https://www.konvergo.com",
-    "depends": [
-        'base',
-        'web',
-        'website',
-        'konvergo_theme_base',
+    'name': 'Konvergo ERP Theme', 
+    'summary': 'Konvergo ERP Theme',
+    'version': '16.0.0',
+    'category': 'Themes/Backend', 
+    'license': 'LGPL-3', 
+    'author': 'Konvergo',
+    'website': 'https://www.konvergo.com',
+    'contributors': [
+        'Kapreon <contact@kapreon.com>',
+        'Konvergo <contact@konvergo.com>',
     ],
-    'images': [
-        'static/description/hero.png',
+    'depends': [
+        'base_setup',
+        'web_editor',
+        'mail',
     ],
-    "data": [
-        'views/assets.xml',
-        'views/templates/footer.xml',
-        'views/templates/404.xml',
-        'views/templates/product-konvergo-bot.xml',
-        'security/ir.model.access.csv',
+    'excludes': [
+        'web_enterprise',
     ],
+    'data': [
+        'templates/webclient.xml',
+        'views/res_config_settings.xml',
+        'views/res_users.xml',
+    ],
+    'assets': {
+        'web._assets_primary_variables': [
+            (
+                'after', 
+                'web/static/src/scss/primary_variables.scss', 
+                'konvergo_erp_theme/static/src/colors.scss'
+            ),
+        ],
+        'web._assets_backend_helpers': [
+            'konvergo_erp_theme/static/src/variables.scss',
+            'konvergo_erp_theme/static/src/mixins.scss',
+        ],
+        'web.assets_backend': [
+            'konvergo_erp_theme/static/src/core/**/*.xml',
+            'konvergo_erp_theme/static/src/core/**/*.scss',
+            'konvergo_erp_theme/static/src/core/**/*.js',
+            'konvergo_erp_theme/static/src/webclient/**/*.xml',
+            'konvergo_erp_theme/static/src/webclient/**/*.scss',
+            'konvergo_erp_theme/static/src/webclient/**/*.js',
+            'konvergo_erp_theme/static/src/views/**/*.scss',
+        ],
+    },
     'installable': True,
+    'application': True,
     'auto_install': False,
-    'application': False,
+    'uninstall_hook': '_uninstall_cleanup',
 }

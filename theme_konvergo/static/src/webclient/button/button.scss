@@ -1,0 +1,93 @@
+// BUTTON
+.btn-primary, .btn-secondary, .btn {
+    text-transform: none !important;
+}
+
+.o_statusbar_status {
+    button {
+        border-radius: 0;
+    } 
+}
+
+.btn-secondary {
+    background: #EFF1F4;
+    border-color: #EFF1F4;
+    color: $konvergo-black-1000;
+
+    &:hover {
+        background-color: $konvergo-black-1000;
+        border-color: $konvergo-black-1000;
+        color: $konvergo-white-800;
+    }
+
+    &:active, &:focus {
+        background-color: $konvergo-black-1000;
+        border-color: $konvergo-black-1000;
+        box-shadow: 0 0 0 0.25rem rgba(36, 41, 48, 0.5);
+        color: $konvergo-white-800;
+    }
+}
+
+.btn-outline-primary {
+    background: #F9E4EB;
+    border-color: #F9E4EB;
+    color: $konvergo-red-1000;
+
+    &:hover {
+        background-color: $konvergo-red-1000;
+        border-color: $konvergo-red-1000;
+        color: $konvergo-white-800;
+    }
+
+    &:active, &:focus {
+        background-color: $konvergo-red-1100;
+        border-color: $konvergo-red-1100;
+        box-shadow: 0 0 0 0.25rem rgba(236, 11, 67, 0.5);
+        color: $konvergo-white-800;
+    }
+}
+
+.o_list_buttons, .o_form_buttons_edit {
+    gap: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-fill-odoo, .btn-odoo {
+    background-color: $konvergo-red-1000;
+    border-color: $konvergo-red-1000;
+
+    &:hover {
+        background-color: $konvergo-red-1100;
+        border-color: $konvergo-red-1100;
+    }
+
+    &:active, &:focus {
+        background-color: $konvergo-red-1100;
+        border-color: $konvergo-red-1100;
+        box-shadow: 0 0 0 0.25rem rgba(236, 11, 67, 0.5);
+    }
+}
+
+.o_cp_action_menus {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-group, .o_cp_action_menus {
+ .btn, .btn-light {
+    background: #EFF1F4;
+    border-color: #EFF1F4;
+    color: $konvergo-black-800;
+
+    &:hover {
+        background: $konvergo-black-1000;
+        color: $konvergo-white-800;
+    }
+ }
+
+ .show > .btn-light.dropdown-toggle {
+    background: $konvergo-black-1000;
+    color: $konvergo-white-800;
+ }
+}

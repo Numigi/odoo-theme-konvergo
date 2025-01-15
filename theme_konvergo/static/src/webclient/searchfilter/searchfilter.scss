@@ -1,0 +1,21 @@
+// Search filters
+
+.o_searchview .o_searchview_facet {
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    .o_facet_values {
+        background: $konvergo-black-1000;
+        border: none;
+        color: $konvergo-white-800;
+    }
+
+    .o_facet_remove {
+        color: $konvergo-white-800 !important;
+        opacity: 100 !important;
+    }
+
+    // &_label {
+    //     padding: 3px 3px 3px 10px;
+    // }
+}

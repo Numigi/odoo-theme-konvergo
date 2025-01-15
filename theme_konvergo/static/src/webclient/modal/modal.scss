@@ -1,0 +1,11 @@
+:not(.s_popup) > .modal .modal-content {
+    border-radius: 10px;
+}
+
+
+.modal:not([data-bs-backdrop="false"]) {
+    @supports ((-webkit-backdrop-filter: blur(11px)) or (backdrop-filter: blur(11px))) {
+        -webkit-backdrop-filter: blur(11px);
+        backdrop-filter: blur(11px);
+      }
+}

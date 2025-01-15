@@ -1,0 +1,48 @@
+// VIEWS, KANBAN, FIELDS
+
+.o_kanban_renderer {
+    .o_kanban_record > div {
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    .o_kanban_ungrouped {
+        gap: 5px;
+    }
+
+    .o_kanban_record  {
+        margin-bottom: 10px;
+    }
+
+    .o_kanban_counter > .o_kanban_counter_progress {
+        height: 4px;
+    }
+}
+
+.o_control_panel, .breadcrumb {
+    background-color: #fafcfe;
+}
+
+
+
+
+
+
+.o_form_sheet {
+    border-radius: $border-radius-xl;
+    overflow: hidden;
+}
+
+.o_form_view {
+    .oe_avatar .img {
+        border-radius: $border-radius;
+    }
+}
+
+.o_kanban_renderer .o_kanban_record .o_kanban_image img {
+    border-radius: $border-radius-sm;
+}
+
+.o_PopoverView_channelInvitationForm {
+    border-radius: $border-radius-lg;
+}

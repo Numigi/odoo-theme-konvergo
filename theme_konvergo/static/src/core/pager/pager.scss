@@ -1,0 +1,7 @@
+
+.konvergo_pager_refresh {
+	color: $gray-700;
+	&.konvergo_active_autoload{
+		color: $success;	
+	}
+}

@@ -1,0 +1,35 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// * {
+//     font-family: "Be Vietnam Pro", sans-serif;
+// }
+
+
+//----------------------------------------------------------
+// Border radius - Components
+//----------------------------------------------------------
+
+$border-radius: 6px;
+$border-radius-lg: 10px;
+$border-radius-xl: 12px;
+$border-radius-sm: 4px;
+
+//----------------------------------------------------------
+// AppBarMenu
+//----------------------------------------------------------
+
+$konvergo-sidebar-large-width: 146px;
+$konvergo-sidebar-small-width: 46px;
+
+//----------------------------------------------------------
+// List View
+//----------------------------------------------------------
+
+$o-list-footer-bg-color: $o-brand-odoo;
+
+//----------------------------------------------------------
+// Transitions
+//----------------------------------------------------------
+
+$konvergo-transition-style: .2s cubic-bezier(.32,.08,.24,1);

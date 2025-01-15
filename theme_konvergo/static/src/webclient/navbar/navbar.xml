@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+
+	<t t-name="konvergo_erp_theme.NavBar" t-inherit="web.NavBar" t-inherit-mode="extension" owl="1">
+		<xpath expr="//nav" position="before">
+			<t t-set="apps" t-value="this.getAppsMenuItems(this.menuService.getApps())" />
+		</xpath>
+		<xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
+			<AppsMenu hotkey="'h'" title="'Home Menu'" class="'o_navbar_apps_menu'" manualOnly="true">
+				<t t-set-slot="toggler" class="apps-icon">
+					<!-- <img t-att-src="'/konvergo_erp_theme/static/img/konvergo-icon.svg'" class="apps-icon__img" alt="Konvergo Icon"/> -->
+					<svg width="21" height="22" viewBox="0 0 21 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg" class="apps-icon__img konvergo-icon">
+						<g clip-path="url(#clip0_1851_805)">
+							<path class="konvergo-icon__k" d="M9.27207 11.58C9.20756 11.5559 9.15191 11.5124 9.11262 11.4554C9.07332 11.3984 9.05226 11.3306 9.05226 11.2611C9.05226 11.1917 9.07332 11.1239 9.11262 11.0669C9.15191 11.0099 9.20756 10.9664 9.27207 10.9423C11.2067 10.2346 14.5982 7.97979 14.6999 0.868632C14.7007 0.824416 14.6928 0.780484 14.6766 0.739396C14.6604 0.698307 14.6362 0.660883 14.6056 0.629303C14.5749 0.597722 14.5383 0.572616 14.4979 0.555447C14.4576 0.538278 14.4142 0.529389 14.3704 0.529297H9.96364C9.87903 0.529375 9.79767 0.562225 9.73635 0.621071C9.67503 0.679918 9.63842 0.760273 9.63408 0.845563C9.55961 2.31527 8.73754 8.51558 0.237405 10.9415C0.171685 10.9592 0.113282 10.9976 0.07071 11.0512C0.0281382 11.1047 0.00362274 11.1706 0.000737283 11.2392C0.000737283 11.2474 0 11.2548 0 11.2623C0 11.2697 0 11.2779 0 11.2861C0.00288545 11.3547 0.0274009 11.4205 0.0699728 11.4741C0.112545 11.5276 0.170947 11.566 0.236668 11.5837C8.7368 14.0097 9.55887 20.207 9.63334 21.6797C9.63768 21.765 9.67429 21.8453 9.73561 21.9042C9.79693 21.963 9.87829 21.9959 9.9629 21.996H14.3696C14.4135 21.9959 14.4568 21.987 14.4972 21.9698C14.5376 21.9526 14.5742 21.9275 14.6048 21.896C14.6355 21.8644 14.6596 21.827 14.6758 21.7859C14.6921 21.7448 14.7 21.7008 14.6992 21.6566C14.5982 14.5418 11.2067 12.287 9.27207 11.58Z" fill="#242930"/>
+							<path class="konvergo-icon__o" d="M17.8502 14.2962C19.5899 14.2962 21.0002 12.9381 21.0002 11.2628C21.0002 9.58756 19.5899 8.22949 17.8502 8.22949C16.1105 8.22949 14.7002 9.58756 14.7002 11.2628C14.7002 12.9381 16.1105 14.2962 17.8502 14.2962Z" fill="#EC0B43"/>
+						</g>
+						<defs>
+							<clipPath id="clip0_1851_805">
+								<rect width="21" height="22" fill="white"/>
+							</clipPath>
+						</defs>
+					</svg>
+
+				</t>
+
+				<AppsSearch t-if="!env.isSmall"/>
+				<DropdownItem t-foreach="apps" t-as="app" t-key="app.id" dataset="{ menuXmlid: app.xmlid, section: app.id }" class="{ 'o_app': true, 'focus': menuService.getCurrentApp().id === app.id }" onSelected="() => app.action()" parentClosingMode="'none'">
+					<a t-att-href="app.href" t-on-click.prevent="">
+						<img t-if="app.webIconData" class="konvergo_app_icon" t-att-src="app.webIconData" />
+						<img t-else="" class="konvergo_app_icon" src="/konvergo_erp_theme/static/img/default_icon.png" />
+						<span class="konvergo_app_name">
+							<t t-out="app.name"/>
+						</span>
+					</a>
+				</DropdownItem>
+			</AppsMenu>
+		</xpath>
+		<xpath expr="//nav" position="inside">
+			<AppsBar apps="apps"/>
+		</xpath>
+	</t>
+
+</templates>

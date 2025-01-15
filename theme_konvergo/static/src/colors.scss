@@ -1,0 +1,60 @@
+$o-brand-odoo: #242930;
+$o-brand-primary: #EC0B43;
+
+$konvergo-menu-color: #f8f9fa;
+$konvergo-appbar-color: #dee2e6;
+$konvergo-appbar-background: #242930;
+
+$konvergo-black-1000: #242930;
+$konvergo-black-1000-light: #303A48;
+$konvergo-black-1000-lightest: #465161;
+$konvergo-black-900: #39414C;
+$konvergo-black-800: #4F5A69;
+$konvergo-black-600: #7C7F83;
+$konvergo-black-300: #D7D8D9;
+
+$konvergo-white-1000-light: #F1F4FA;
+$konvergo-white-1000-lightest: #E4ECF8;
+$konvergo-white-800: #FAFCFE;
+
+$konvergo-red-1100: #D80E41;
+$konvergo-red-1000: #EC0B43;
+$konvergo-red-900: #EE2456;
+$konvergo-red-100: #FDE6EC;
+
+$konvergo-blue-1100: #1B5CB7;
+$konvergo-blue-1000: #1A62C6;
+$konvergo-blue-900: #3172CC;
+$konvergo-blue-100: #E8EFF9;
+
+$konvergo-yellow-1100: #DEAF23;
+$konvergo-yellow-1000: #F3BE22;
+$konvergo-yellow-900: #F5C539;
+$konvergo-yellow-100: #FDF8E8;
+
+$o-gray-100: $konvergo-white-800;
+$o-gray-200: #EAEFF3;
+$o-gray-300: #DCE1EA;
+$o-gray-400: #CFD4DC;
+$o-gray-500: #AEB9C8;
+$o-gray-600: #717A85;
+$o-gray-700: $konvergo-black-800;
+$o-gray-800: $konvergo-black-900;
+$o-gray-900: $konvergo-black-1000;
+
+$o-success: #33C541;
+$o-info: #1A62C6;
+$o-warning: #F3BE22;
+$o-danger: #D80E41;
+
+$o-theme-text-colors: (
+    "success": #33C541,
+    "info": #1A62C6,
+    "warning": #F3BE22,
+    "danger": #D80E41,
+    "odoo": $konvergo-black-1000,
+);
+
+$o-community-color: $konvergo-black-1000 !important !default;
+
+
