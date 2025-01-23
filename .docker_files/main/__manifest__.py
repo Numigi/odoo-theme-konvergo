@@ -3,7 +3,7 @@
 
 {
     "name": "Main Module",
-    "version": "1.0.0",
+    "version": "16.01.0.0",
     "author": "Numigi",
     "maintainer": "Numigi",
     "website": "https://www.numigi.com",
@@ -11,7 +11,7 @@
     "category": "Other",
     "summary": "Install all addons required for testing.",
     "depends": [
-        "konvergo_theme_base",
+        "theme_konvergo",
     ],
     "installable": True,
 }
