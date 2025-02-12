@@ -7,10 +7,6 @@ class IrHttp(models.AbstractModel):
 
     _inherit = "ir.http"
 
-    #----------------------------------------------------------
-    # Functions
-    #----------------------------------------------------------
-    
     def session_info(self):
         result = super(IrHttp, self).session_info()
         if request.env.user._is_internal():
@@ -20,7 +16,7 @@ class IrHttp(models.AbstractModel):
                 })
         result['pager_autoload_interval'] = int(
             self.env['ir.config_parameter'].sudo().get_param(
-                'konvergo_erp_theme.autoload', default=30000
+                'theme_konvergo.autoload', default=30000
             )
         )
         return result

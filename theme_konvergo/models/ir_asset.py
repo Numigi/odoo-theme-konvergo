@@ -1,14 +1,9 @@
 
-from odoo import models, fields, api
+from odoo import models, api
 
 
 class IrAsset(models.Model):
-    
     _inherit = 'ir.asset'
-    
-    # ----------------------------------------------------------
-    # ORM
-    # ----------------------------------------------------------
 
     @api.model_create_multi
     def create(self, vals_list):

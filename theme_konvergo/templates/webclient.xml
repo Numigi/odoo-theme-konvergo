@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <odoo>
 
     <template id="webclient_bootstrap" name="Web Client" inherit_id="web.webclient_bootstrap">

@@ -1,19 +1,12 @@
 
 import re
-import uuid
-import base64
 
-from odoo import models, fields, api
-from odoo.modules import module
+from odoo import models
 
 
 class ScssEditor(models.AbstractModel):
-    
-    _inherit = 'web_editor.assets'
 
-    # ----------------------------------------------------------
-    # Helper
-    # ----------------------------------------------------------
+    _inherit = 'web_editor.assets'
 
     def _get_theme_variable(self, content, variable):
         regex = r'{0}\:?\s(.*?);'.format(variable)
@@ -33,17 +26,13 @@ class ScssEditor(models.AbstractModel):
             content = re.sub(regex, variable_content, content)
         return content
 
-    # ----------------------------------------------------------
-    # Functions
-    # ----------------------------------------------------------
-
     def get_theme_variables_values(self, url, bundle, variables):
         custom_url = self._make_custom_asset_url(url, bundle)
         content = self._get_content_from_url(custom_url)
         if not content:
             content = self._get_content_from_url(url)
         return self._get_theme_variables(content.decode('utf-8'), variables)
-    
+
     def replace_theme_variables_values(self, url, bundle, variables):
         original = self._get_content_from_url(url).decode('utf-8')
         content = self._replace_theme_variables(original, variables)
