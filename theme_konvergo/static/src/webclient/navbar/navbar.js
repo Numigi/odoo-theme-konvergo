@@ -3,11 +3,11 @@
 import { patch } from '@web/core/utils/patch';
 
 import { NavBar } from '@web/webclient/navbar/navbar';
-import { AppsMenu } from "@konvergo_erp_theme/webclient/appsmenu/appsmenu";
-import { AppsSearch } from "@konvergo_erp_theme/webclient/appssearch/appssearch";
-import { AppsBar } from '@konvergo_erp_theme/webclient/appsbar/appsbar';
+import { AppsMenu } from "@theme_konvergo/webclient/appsmenu/appsmenu";
+import { AppsSearch } from "@theme_konvergo/webclient/appssearch/appssearch";
+import { AppsBar } from '@theme_konvergo/webclient/appsbar/appsbar';
 
-patch(NavBar.prototype, 'konvergo_erp_theme.NavBar', {
+patch(NavBar.prototype, 'theme_konvergo.NavBar', {
 	getAppsMenuItems(apps) {
 	    const currentApp = this.menuService.getCurrentApp();
 		return apps.map((menu) => {
@@ -38,7 +38,7 @@ patch(NavBar.prototype, 'konvergo_erp_theme.NavBar', {
     },
 });
 
-patch(NavBar, 'konvergo_erp_theme.NavBar', {
+patch(NavBar, 'theme_konvergo.NavBar', {
     components: {
         ...NavBar.components,
         AppsMenu,

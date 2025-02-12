@@ -2,7 +2,7 @@
 
 <templates xml:space="preserve">
 
-	<t t-name="konvergo_erp_theme.AppsMenu" t-inherit="web.Dropdown" t-inherit-mode="primary" owl="1">
+	<t t-name="theme_konvergo.AppsMenu" t-inherit="web.Dropdown" t-inherit-mode="primary" owl="1">
 		<xpath expr="//div[@t-ref='menuRef']" position="attributes">
 			<attribute name="t-attf-style">
 	        	background-image: url("{{ backgroundImageUrl }}");

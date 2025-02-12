@@ -14,12 +14,12 @@ export class AppsMenu extends Dropdown {
                 id: this.env.services.company.currentCompany.id,
             });
     	} else {
-    		this.backgroundImageUrl = '/konvergo_erp_theme/static/img/background.png';
+    		this.backgroundImageUrl = '/theme_konvergo/static/img/background.png';
     	}
     	this.env.bus.on("ACTION_MANAGER:UI-UPDATED", this, ev => this.close());
     }
 }
 
 Object.assign(AppsMenu, {
-    template: 'konvergo_erp_theme.AppsMenu',
+    template: 'theme_konvergo.AppsMenu',
 });

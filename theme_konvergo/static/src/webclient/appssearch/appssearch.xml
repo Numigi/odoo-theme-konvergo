@@ -2,7 +2,7 @@
 
 <templates xml:space="preserve">
 
-    <t t-name="konvergo_erp_theme.AppsSearch" owl="1">
+    <t t-name="theme_konvergo.AppsSearch" owl="1">
         <div class="konvergo_apps_search_container" t-att-class="state.hasResults ? 'konvergo_apps_search_active' : ''">
             <div class="konvergo_apps_search_input d-flex align-items-center">
                 <span class="konvergo_apps_search_icon fa fa-search" />
