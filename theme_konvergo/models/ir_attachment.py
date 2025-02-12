@@ -1,14 +1,9 @@
 
-from odoo import models, fields, api
+from odoo import models, api
 
 
 class IrAttachment(models.Model):
-    
     _inherit = 'ir.attachment'
-    
-    # ----------------------------------------------------------
-    # ORM
-    # ----------------------------------------------------------
 
     @api.model_create_multi
     def create(self, vals_list):

@@ -7,7 +7,7 @@ import { session } from "@web/session";
 
 import { Pager } from '@web/core/pager/pager';
 
-patch(Pager.prototype, 'konvergo_erp_theme.Pager', {
+patch(Pager.prototype, 'theme_konvergo.Pager', {
 	setup() {
         this._super(...arguments);
         const autoLoad = browser.localStorage.getItem(

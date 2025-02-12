@@ -1,10 +1,10 @@
 
 {
-    'name': 'Konvergo ERP Theme', 
+    'name': 'Konvergo ERP Theme',
     'summary': 'Konvergo ERP Theme',
     'version': '16.0.0',
-    'category': 'Themes/Backend', 
-    'license': 'LGPL-3', 
+    'category': 'Themes/Backend',
+    'license': 'LGPL-3',
     'author': 'Konvergo',
     'website': 'https://www.konvergo.com',
     'contributors': [
@@ -20,30 +20,30 @@
         'web_enterprise',
     ],
     'data': [
-        'templates/webclient.xml',
+        # 'templates/webclient.xml',
         'views/res_config_settings.xml',
         'views/res_users.xml',
     ],
     'assets': {
         'web._assets_primary_variables': [
             (
-                'after', 
-                'web/static/src/scss/primary_variables.scss', 
-                'konvergo_erp_theme/static/src/colors.scss'
+                'after',
+                'web/static/src/scss/primary_variables.scss',
+                'theme_konvergo/static/src/colors.scss'
             ),
         ],
         'web._assets_backend_helpers': [
-            'konvergo_erp_theme/static/src/variables.scss',
-            'konvergo_erp_theme/static/src/mixins.scss',
+            'theme_konvergo/static/src/variables.scss',
+            'theme_konvergo/static/src/mixins.scss',
         ],
         'web.assets_backend': [
-            'konvergo_erp_theme/static/src/core/**/*.xml',
-            'konvergo_erp_theme/static/src/core/**/*.scss',
-            'konvergo_erp_theme/static/src/core/**/*.js',
-            'konvergo_erp_theme/static/src/webclient/**/*.xml',
-            'konvergo_erp_theme/static/src/webclient/**/*.scss',
-            'konvergo_erp_theme/static/src/webclient/**/*.js',
-            'konvergo_erp_theme/static/src/views/**/*.scss',
+            'theme_konvergo/static/src/core/**/*.xml',
+            'theme_konvergo/static/src/core/**/*.scss',
+            'theme_konvergo/static/src/core/**/*.js',
+            'theme_konvergo/static/src/webclient/**/*.xml',
+            'theme_konvergo/static/src/webclient/**/*.scss',
+            'theme_konvergo/static/src/webclient/**/*.js',
+            'theme_konvergo/static/src/views/**/*.scss',
         ],
     },
     'installable': True,
