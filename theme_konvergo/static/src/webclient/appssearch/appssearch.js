@@ -92,6 +92,6 @@ export class AppsSearch extends Component {
 }
 
 Object.assign(AppsSearch, {
-    template: 'konvergo_erp_theme.AppsSearch',
+    template: 'theme_konvergo.AppsSearch',
 });
 
