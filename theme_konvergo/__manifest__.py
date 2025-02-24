@@ -1,10 +1,12 @@
+# Copyright 2025-today Numigi and all its contributors (https://bit.ly/numigiens)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
     'name': 'Konvergo ERP Theme',
     'summary': 'Konvergo ERP Theme',
-    'version': '16.0.0',
+    'version': '16.0.1.0.0',
     'category': 'Themes/Backend',
-    'license': 'LGPL-3',
+    'license': 'AGPL-3',
     'author': 'Konvergo',
     'website': 'https://www.konvergo.com',
     'contributors': [
@@ -20,9 +22,8 @@
         'web_enterprise',
     ],
     'data': [
-        # 'templates/webclient.xml',
         'views/res_config_settings.xml',
-        'views/res_users.xml',
+        'views/res_users_views.xml',
     ],
     'assets': {
         'web._assets_primary_variables': [
