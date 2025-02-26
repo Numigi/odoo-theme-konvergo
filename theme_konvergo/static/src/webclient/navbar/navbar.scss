@@ -144,3 +144,10 @@ body>header {
         }
     }
 }
+
+.o_main_navbar .dropdown.show > .dropdown-toggle,
+.o_main_navbar .dropdown.show > .dropdown-toggle:hover,
+.o_main_navbar .dropdown.show > .dropdown-toggle:focus,
+.o_main_navbar .dropdown.show > .dropdown-toggle:active {
+  color: $o-main-navbar-text !important;
+}
