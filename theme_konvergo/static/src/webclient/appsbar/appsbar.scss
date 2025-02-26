@@ -1,111 +1,77 @@
-
-
 .konvergo_apps_sidebar_panel {
-    @include konvergo-disable-scrollbar();
-    overflow-y: auto;	
+	@include konvergo-disable-scrollbar();
+	overflow-y: auto;	
 	position: fixed; 
-    top: 51px;
-    height: calc(100% - #{$o-navbar-height}); 
-    background-color: $konvergo-white-800;
+	top: 51px;
+	height: calc(100% - #{$o-navbar-height});
+	background-color: $konvergo-white-800;
 	border-right: 1px solid #dedede;
-
-    .konvergo_apps_sidebar {
-	    padding: 0;
-	    white-space: nowrap;
-	    .konvergo_apps_sidebar_menu {
-		    list-style: none;
-		    margin: 0;
-		    padding: 0;
-		    > li {
-		        margin: 0;
-		        padding: 0;
-		        border: 0px;
-		        display: block;
-		        > a {
-		            margin: 6px;
-		            border: 0px;
-					border-radius: $border-radius-lg;
-		            display: block;
-		            cursor: pointer;
-		            font-size: 13px;
-		            font-weight: 300;
-		            overflow: hidden;
-		            padding: 8px;
-		            position: relative;
-		            text-decoration: none;
-		            color: $konvergo-black-1000;
-		            text-overflow: ellipsis;
-		            .konvergo_apps_sidebar_icon {
-					    width: 22px;
-					    height: 22px;
-					    margin-right: 5px;
-						border-radius: $border-radius-sm;
-					}
-		        }
-		    }
-	        > li.active > a {
-				background: $konvergo-white-1000-light;
-	        }
-	        > li:hover > a {
-			    background: $konvergo-white-1000-lightest;
-	        }
-	    }
-	}
-}
-
-@include media-breakpoint-up(lg) {
-	.konvergo_sidebar_type_large {
-		.konvergo_apps_sidebar_panel {
-			width: $konvergo-sidebar-large-width;
+	box-sizing: border-box;
+  
+	.konvergo_apps_sidebar {
+	  padding: 0;
+	  white-space: nowrap;
+	  .konvergo_apps_sidebar_menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		> li {
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+		  display: block;
+		  > a {
+			margin: 6px;
+			border: 0;
+			border-radius: $border-radius-lg;
+			display: block;
+			cursor: pointer;
+			font-size: 13px;
+			font-weight: 300;
+			overflow: hidden;
+			padding: 8px;
+			position: relative;
+			text-decoration: none;
+			color: $konvergo-black-1000;
+			text-overflow: ellipsis;
+			.konvergo_apps_sidebar_icon {
+			  width: 22px;
+			  height: 22px;
+			  margin-right: 5px;
+			  border-radius: $border-radius-sm;
+			}
+		  }
 		}
-		.o_navbar + .o_action_manager {
-			padding-left: $konvergo-sidebar-large-width;
+		> li.active > a {
+		  background: $konvergo-white-1000-light;
 		}
+		> li:hover > a {
+		  background: $konvergo-white-1000-lightest;
+		}
+	  }
 	}
+  }
+  
+@include media-breakpoint-up(md) {
+	.konvergo_sidebar_type_large,
 	.konvergo_sidebar_type_small {
-		.konvergo_apps_sidebar_panel {
-			width: $konvergo-sidebar-small-width;
-			.konvergo_apps_sidebar_name {
-				display: none;
-			}
-			.konvergo_apps_sidebar_icon {
-				margin-right: 0 !important;
-				border-radius: $border-radius-sm;
-			}
-		}
-		.o_navbar + .o_action_manager {
-			padding-left: $konvergo-sidebar-small-width;
-		}
+	  .konvergo_apps_sidebar_panel {
+		width: $konvergo-sidebar-large-width !important;
+		min-width: $konvergo-sidebar-large-width !important;
+		max-width: $konvergo-sidebar-large-width !important;
+		position: fixed;
+		left: 0;
+		top: 51px;
+		height: calc(100% - #{$o-navbar-height});
+	  }
 	}
-	.konvergo_sidebar_type_invisible {
-		.konvergo_apps_sidebar_panel {
-			display: none;
-		}
+	.o_action_manager {
+	  padding-left: $konvergo-sidebar-large-width !important;
 	}
-}
-
-@include media-breakpoint-only(md) {
-	.konvergo_sidebar_type_large, .konvergo_sidebar_type_small {
-		.konvergo_apps_sidebar_panel {
-			width: $konvergo-sidebar-small-width;
-			.konvergo_apps_sidebar_name {
-				display: none;
-			}
-			.konvergo_apps_sidebar_icon {
-				margin-right: 0 !important;
-				border-radius: $border-radius-sm;
-			}
-		}
-		.o_navbar + .o_action_manager {
-			padding-left: $konvergo-sidebar-small-width;
-		}
+	.konvergo_apps_sidebar {
+	  width: $konvergo-sidebar-large-width !important;
 	}
-	.konvergo_sidebar_type_invisible {
-		.konvergo_apps_sidebar_panel {
-			display: none;
-		}
-	}
-}
+  }
 
 @include media-breakpoint-down(sm) {
 	.konvergo_apps_sidebar_panel {
