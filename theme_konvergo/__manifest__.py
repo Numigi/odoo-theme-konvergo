@@ -38,6 +38,8 @@
             'theme_konvergo/static/src/mixins.scss',
         ],
         'web.assets_backend': [
+            'theme_konvergo/static/src/font.js',
+            'theme_konvergo/static/src/font.scss',
             'theme_konvergo/static/src/core/**/*.xml',
             'theme_konvergo/static/src/core/**/*.scss',
             'theme_konvergo/static/src/core/**/*.js',
