@@ -9,7 +9,6 @@
 		<xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
 			<AppsMenu hotkey="'h'" title="'Home Menu'" class="'o_navbar_apps_menu'" manualOnly="true">
 				<t t-set-slot="toggler" class="apps-icon">
-					<!-- <img t-att-src="'/theme_konvergo/static/img/konvergo-icon.svg'" class="apps-icon__img" alt="Konvergo Icon"/> -->
 					<svg width="21" height="22" viewBox="0 0 21 22" fill="none"
 						xmlns="http://www.w3.org/2000/svg" class="apps-icon__img konvergo-icon">
 						<g clip-path="url(#clip0_1851_805)">
@@ -39,6 +38,12 @@
 		</xpath>
 		<xpath expr="//nav" position="inside">
 			<AppsBar apps="apps"/>
+		</xpath>
+	</t>
+
+	<t t-name="theme_konvergo.NavBar.SectionsMenu" t-inherit="web.NavBar.SectionsMenu" t-inherit-mode="extension" owl="1">
+		<xpath expr="//div[hasclass('o_menu_sections')]" position="attributes">
+			<attribute name="id">menuSections</attribute>
 		</xpath>
 	</t>
 
