@@ -48,26 +48,28 @@ export class AppsMenu extends Dropdown {
         if (togglerButton) {
             const ariaExpanded = togglerButton.getAttribute('aria-expanded');
             if (ariaExpanded === 'false') {
-                // Menu Section
+                // Hide menu section
                 if (menuSections) {
                     menuSections.classList.remove('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
                 }
                 // App Menu Brand
                 if (menuBrand) {
-                    menuBrand.classList.remove('dropdown-item');
+                    menuBrand.classList.add('hide-menu-brand');
+                    menuBrand.classList.remove('d-md-block');
                 }
                 // Debug Mode Manager
                 if (debugManager) {
                     debugManager.classList.add('d-none');
                 }
             } else {
-                // Menu Section
+                // Show Menu Section
                 if (menuSections) {
                     menuSections.classList.add('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
                 }
                 // App Menu Brand
                 if (menuBrand) {
-                    menuBrand.classList.add('dropdown-item');
+                    menuBrand.classList.remove('hide-menu-brand');
+                    menuBrand.classList.add('d-md-block');
                 }
                 // Debug Mode Manager
                 if (debugManager) {
@@ -78,6 +80,7 @@ export class AppsMenu extends Dropdown {
             console.error('Button with class "dropdown-toggle" not found.');
         }
     }
+    
 }
 
 Object.assign(AppsMenu, {
