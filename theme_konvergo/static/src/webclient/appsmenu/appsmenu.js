@@ -24,22 +24,20 @@ export class AppsMenu extends Dropdown {
             const menuSections = document.getElementById('menuSections');
             const debugManager = document.querySelector('.o_debug_manager');
             const menuBrand = document.querySelector('.o_menu_brand');
+            // Menu Section
             if (menuSections) {
                 menuSections.classList.add('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
-                // App Menu Brand
-                if (menuBrand) {
-                    menuBrand.classList.add('dropdown-item');
-                }
-                // Debug Mode Manager
-                if (debugManager) {
-                    debugManager.classList.remove('d-none');
-                }
-            } else {
-                console.error('Element with id "menuSections" not found.');
+            }
+            // App Menu Brand
+            if (menuBrand) {
+                menuBrand.classList.add('dropdown-item');
+            }
+            // Debug Mode Manager
+            if (debugManager) {
+                debugManager.classList.remove('d-none');
             }
         });
     }
-
 
     onTogglerClick() {
         super.onTogglerClick();
@@ -49,38 +47,40 @@ export class AppsMenu extends Dropdown {
         const menuBrand = document.querySelector('.o_menu_brand');
         if (togglerButton) {
             const ariaExpanded = togglerButton.getAttribute('aria-expanded');
-            if (menuSections) {
-                if (ariaExpanded === 'false') {
-                    // Menu Section
+            if (ariaExpanded === 'false') {
+                // Hide menu section
+                if (menuSections) {
                     menuSections.classList.remove('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
-                    // App Menu Brand
-                    if (menuBrand) {
-                        menuBrand.classList.remove('dropdown-item');
-                    }
-                    // Debug Mode Manager
-                    if (debugManager) {
+                }
+                // App Menu Brand
+                if (menuBrand) {
+                    menuBrand.classList.add('hide-menu-brand');
+                    menuBrand.classList.remove('d-md-block');
+                }
+                // Debug Mode Manager
+                if (debugManager) {
                     debugManager.classList.add('d-none');
-                    }
-                } else {
-                    // Menu Section
-                    menuSections.classList.add('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
-                    // App Menu Brand
-                    if (menuBrand) {
-                        menuBrand.classList.add('dropdown-item');
-                    }
-                    // Debug Mode Manager
-                    if (debugManager) {
-                    debugManager.classList.remove('d-none');
-                    }
                 }
             } else {
-                console.error('Element with id "menuSections" not found.');
+                // Show Menu Section
+                if (menuSections) {
+                    menuSections.classList.add('d-md-flex', 'flex-grow-1', 'flex-shrink-1');
+                }
+                // App Menu Brand
+                if (menuBrand) {
+                    menuBrand.classList.remove('hide-menu-brand');
+                    menuBrand.classList.add('d-md-block');
+                }
+                // Debug Mode Manager
+                if (debugManager) {
+                    debugManager.classList.remove('d-none');
+                }
             }
         } else {
             console.error('Button with class "dropdown-toggle" not found.');
         }
     }
-
+    
 }
 
 Object.assign(AppsMenu, {
